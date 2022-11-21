@@ -1,4 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#define max_size 5
 
+
+      int stack[max_size],top=-1;
+      void push();
+      void pop();
+      void display();
+
+      int main()
+      {
+
+          int choice;
+          while(choice)
+          {
 
               printf("-----STACK OPERATIONS-----");
               printf("1.push \n");
