@@ -3,6 +3,11 @@
 #include<string.h>
 #define max_size 5
 
+      int stack[max_size],top=-1;
+      void push();
+      void pop();
+      void display();
+
 
       int main()
       {
