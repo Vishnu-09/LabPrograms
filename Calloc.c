@@ -14,9 +14,5 @@ int main()
 
            scanf("%d",p+i);
            s = s+ *(p+i);
-       }
-       printf("sum=%d",s);
-       free(p);
-       return 0;
-       }
+ 
 
