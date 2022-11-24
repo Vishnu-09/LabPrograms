@@ -92,18 +92,5 @@ void display()
     if(top==-1)
     {
 
-        printf("\n stack is empty");
-    }
-else
-{
-
-    printf("stack elements are \n");
-    for(i=top;i>=0;i--)
-
-{
-    printf("%d \n",stack[i]);
-    }
-}
-    }
 
   
