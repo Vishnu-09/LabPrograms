@@ -50,14 +50,7 @@ int main()
         }
         return 0;
 }
-    void create()
-    {
-
-        printf("enter size of array");
-        scanf("%d",&n);
-        printf("enter elements");
-        for(i=0;i<n;i++)
-        {
+    
 
 
         scanf("%d",&a[i]);
